@@ -12,7 +12,7 @@ Find the logstash base directory if you do not know where it is.
 find / -type f -wholename "*bin/logstash-plugin" 2>/dev/null | sed "s/\/bin\/logstash-plugin//g"
 ```
 
-Then enter the base directory and execute logstash-plugin install logstash-output-opensearch
+Then enter the base directory and execute bin/logstash-plugin install logstash-output-opensearch
 
 ```
 cd /usr/share/logstash/
